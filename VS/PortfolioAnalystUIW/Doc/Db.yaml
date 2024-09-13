@@ -1,0 +1,40 @@
+﻿---
+Users:
+- UserId
+- UserCode
+- Name
+- Surname
+- Email
+- PasswordHash
+- CreateDate
+- UpdateDate
+- CancelationDate
+- CancelationReason
+- BlockDate
+- BlockReason
+AppAccounts:
+- AppAccountId
+- AppAccountCode
+- AppAccountName
+- AdminUserId
+UserProfiles:
+- UserProfileId
+- AppAccountId
+- UserProfileCode
+- UserProfileName
+- CreateDate
+- UpdateDate
+- CancelationDate
+- CancelationReason
+- BlockDate
+- BlockReason
+AppAccountUsers:
+- AppAccountUsersId
+- UserProfileId
+- UserId
+Logs:
+- LogId
+- Date
+- Action
+- Description
+- UserId
